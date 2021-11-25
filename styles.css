@@ -101,7 +101,7 @@
 }
 
 @media screen and (max-width: 960px) {
-    .nabar-container {
+    .navbar-container {
         display: flex;
         justify-content: space-between;
         height: 80px;
@@ -116,21 +116,14 @@
         margin: 0;
         width: 100%;
         position: absolute;
-        top: -1000px;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: -1;
-        left: 4%;
-    }
-    .navbar-menu {
         background:#131313;
         top: 100%;
-        opacity: 1;
         transition: all 0.5s ease;
         z-index: 99;
         height: 60vh;
         font-size: 1.6rem;
-
     }
     #navbar-logo {
         padding-left: 40px;
