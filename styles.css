@@ -109,6 +109,9 @@
         padding: 0;
     }
     .navbar-menu {
+        display: none;
+    }
+    .navbar-menu.active {
         display: grid;
         grid-template-columns: auto;
         margin: 0;
