@@ -175,3 +175,18 @@
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+
+/* Hero section */
+
+.hero {
+    background: black;
+    background: linear-gradient(to right, #161616, #000000);
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30px;
+}
