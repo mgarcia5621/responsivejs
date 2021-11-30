@@ -191,3 +191,47 @@
     padding: 30px;
     color: #fff;
 }
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+    text-align: center;
+    padding: 30;
+}
+
+.hero-heading {
+    font-size: 100px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.hero-heading span {
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2657eb, #de6161);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: all 0.3s ease;
+    padding: 10px;
+    background-size: 100%;
+    /* -webkit-background-clip: text; */
+    -moz-background-clip: text;
+    border-radius: 10px;
+    -webkit-text-filler-color: transparent;
+    -mo-text-fill-color: transparent;
+}
+
+.hero-description {
+    font-size: 60px;
+    background: #FBD3E9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BB377D, #FBD3E9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
