@@ -211,19 +211,18 @@
 }
 
 .hero-heading span {
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2657eb, #de6161);
-    /* Chrome 10-25, Safari 5.1-6 */
+    background: #2657eb;
+    background-color: #2657eb;
     background: linear-gradient(to right, #2657eb, #de6161);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    transition: all 0.3s ease;
-    padding: 10px;
+
+    /* Set thee background size and repeat properties. */
     background-size: 100%;
-    /* -webkit-background-clip: text; */
-    -moz-background-clip: text;
-    border-radius: 10px;
-    -webkit-text-filler-color: transparent;
-    -mo-text-fill-color: transparent;
+    background-repeat: repeat;
+    
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
 }
 
 .hero-description {
