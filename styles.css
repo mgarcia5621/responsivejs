@@ -214,15 +214,13 @@
     background: #2657eb;
     background-color: #2657eb;
     background: linear-gradient(to right, #2657eb, #de6161);
-
     /* Set thee background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
-    
     /* Use the text as a mask for the background. */
     /* This will show the gradient as a text color rather than element bg. */
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
 }
 
 .hero-description {
@@ -233,4 +231,17 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #BB377D, #FBD3E9);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hightlight {
+    border-bottom: 4px solid rgba(132, 0, 255, );
+}
+
+@media screen and (max-width: 768px) {
+    .hero-heading {
+        font-size: 60px;
+    }
+    .hero-description {
+        font-size: 40px;
+    }
 }
