@@ -226,12 +226,16 @@
 
 .hero-description {
     font-size: 60px;
-    background: #FBD3E9;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #BB377D, #FBD3E9);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    =background: #da22ff;
+    background-color: #da22ff;
+    background: linear-gradient(to right, #9114ff, #de6161);
+    /* Set thee background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .hightlight {
@@ -286,7 +290,14 @@
 
 .main-content h2 {
     font-size: 4rem;
-    background: #FBD3E9;
-    background: -webkit-linear-gradient(to right, #BB377D, #FBD3E9);
-    background: linear-gradient(to right, #BB377D, #FBD3E9);
+    background: #da22ff;
+    background-color: #da22ff;
+    background: linear-gradient(to right, #9114ff, #de6161);
+    /* Set thee background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
