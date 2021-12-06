@@ -226,7 +226,7 @@
 
 .hero-description {
     font-size: 60px;
-    =background: #da22ff;
+    background: #da22ff;
     background-color: #da22ff;
     background: linear-gradient(to right, #9114ff, #de6161);
     /* Set thee background size and repeat properties. */
@@ -289,7 +289,7 @@
 }
 
 .main-content h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     background: #da22ff;
     background-color: #da22ff;
     background: linear-gradient(to right, #9114ff, #de6161);
@@ -300,4 +300,24 @@
     /* This will show the gradient as a text color rather than element bg. */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+.main-container p {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main-btn {
+    background: #de6161;
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+    background: linear-gradient(to right, #2657eb, #de6161);
+    font-size: 1.8rem;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
 }
