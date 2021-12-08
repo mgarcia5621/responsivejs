@@ -215,11 +215,8 @@
     background: #2657eb;
     background-color: #2657eb;
     background: linear-gradient(to right, #2657eb, #de6161);
-    /* Set thee background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -229,11 +226,8 @@
     background: #da22ff;
     background-color: #da22ff;
     background: linear-gradient(to right, #9114ff, #de6161);
-    /* Set thee background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -293,11 +287,8 @@
     background: #da22ff;
     background-color: #da22ff;
     background: linear-gradient(to right, #9114ff, #de6161);
-    /* Set thee background size and repeat properties. */
     background-size: 100%;
     background-repeat: repeat;
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -328,7 +319,7 @@
 .main-btn a {
     position: relative;
     z-index: 2;
-    color: #fff;
+    color: white;
     text-decoration: none;
 }
 
@@ -344,6 +335,26 @@
     border-radius: 4px;
 }
 
+.main-btn: hover {
+    color: #fff;
+}
+
 .main-btn: hover: after {
     width: 100%;
+}
+
+.main-img-container {
+    text-align: center;
+}
+
+.main-img-card {
+    margin: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(to right, #2657eb, #de6161);
 }
