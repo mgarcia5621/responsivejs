@@ -323,7 +323,7 @@
     text-decoration: none;
 }
 
-.main-btn: after {
+.main-btn:after {
     position: absolute;
     content: '';
     top: 0;
@@ -335,11 +335,11 @@
     border-radius: 4px;
 }
 
-.main-btn: hover {
+.main-btn:hover {
     color: #fff;
 }
 
-.main-btn: hover: after {
+.main-btn:hover:after {
     width: 100%;
 }
 
