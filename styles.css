@@ -381,4 +381,51 @@
          margin: 0 auto;
          height: 90%;
      }
+
+     .main-img-card {
+         height: 425px;
+         width: 425px;
+     }
+
+     .main-content {
+         text-align: center;
+        margin-top: 2rem;
+     }
+
+     .main-content h2 {
+         font-size: 3rem;
+     }
+
+     .main-content p {
+         margin-top: 1rem;
+         font-size: 1.5rem;
+     }
+ }
+
+
+ @media screen and (max-width: 480px) {
+    .main-img-card {
+        width: 250px;
+        height: 250px;
+    } 
+
+    .fa-users, .fa-layer-group {
+        font-size: 4rem;
+        margin-top: 3rem;
+    }
+
+    .main-content h2 {
+        font-size: 2rem;
+    }
+
+    .main-content p {
+        margin-top: 2rem;
+        /* font-size: 1.5rem; */
+    }
+
+    .main-btn {
+        padding: 12px 36px;
+        margin: 2.5rem 0;
+    }
+        
  }
