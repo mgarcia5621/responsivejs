@@ -259,7 +259,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    height: 90%;f
+    height: 90%;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -322,6 +322,7 @@
     z-index: 2;
     color: white;
     text-decoration: none;
+    background: transparent;
 }
 
 .main-btn:after {
@@ -427,6 +428,7 @@
     .main-btn {
         padding: 12px 36px;
         margin: 2.5rem 0;
+        background: transparent;
     }
         
  }
@@ -434,7 +436,7 @@
  /* Services Section */
 
  .services {
-     background: black;
+     /* background: transparent; */
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -477,4 +479,18 @@
      justify-content: center;
      color: white;
      background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+     transition: 0.3s ease-in;
  }
+
+ .services-card h2, 
+ .services-card p,
+ .services-btn {
+     background: transparent;
+     display: flex;
+     justify-content: center;
+ }
+
+
+.services-card:nth-child(2) {
+    
+}
