@@ -491,6 +491,63 @@
  }
 
 
+.services-card:nth-child(1) {
+    background: #00b09b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #96c93d, #00b09b);
+    background: linear-gradient(to bottom, #96c93d, #00b09b); 
+}
+
 .services-card:nth-child(2) {
+    background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.services-card:nth-child(3) {
+    background: #ff9966;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.services-card:nth-child(4) {
+    background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
+}
+
+.services-card h2 {
+    text-align: center;
+}
+
+.services-card p {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 20px;
+}
+
+.services-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.services-card button {
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: black;
+    font-size: 1rem;
+}
+
+.services-card button:hover {
+    cursor: pointer;
+}
+
+.services-card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
 }
