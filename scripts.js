@@ -8,3 +8,4 @@ const mobileMenu = () => {
 }
 
 menu.addEventListener('click', mobileMenu)
+console.log('anywho lets begin our javascript');
